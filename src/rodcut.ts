@@ -9,4 +9,7 @@ function getMaxProfit(prices: any[], n: number): number {
   }
   return dp[n];
 }
+const prices = [1, 5, 8, 9, 10, 17, 17, 20];
+console.log(getMaxProfit(prices, 4));
+console.log(getMaxProfit(prices, 8));
 
